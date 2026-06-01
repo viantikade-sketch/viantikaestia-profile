@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(
+        
+    #fc70a6 0%, 
+    #ffa3dc 40%, #fa0881 100%);
+}
+.profile {
+    display: flex;
+    justify-content: center; /* Perbaikan dari juatyfy-content */
+    align-items: center;
+    flex-direction: column;  /* Tambahkan ini jika ingin foto dan nama berurutan ke bawah */
+    text-align: center;
+    min-height: 50vh;  
+    margin-top: 100px;      /* Memberi ruang vertikal agar terlihat di tengah */
+}
+
+.profileimage {
+    width: 150px;
+    height: 150px;           /* Tambahkan height yang sama dengan width */
+    border-radius: 50%;      /* Agar foto benar-benar bulat */
+    object-fit: cover;       /* Agar foto tidak terlihat gepeng/lonjong */
+}
+.profile h2 {
+    color: white;
+}
+.profile h4 {
+    color: white;
+    transform: translateY(-10px);
+}
+.biodata{
+    background: linear-gradient(#fcfcfd 0%, #fffefed2 40%, #d3232000 100%);
+    padding-bottom: 200PX;
+    padding-top: 55px;
+}
+.row {
+    padding: 0px 10px;
+}
+.achievement {
+    padding-top: 55px;
+
+}
+.footer {
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+.contact a {
+    color:black
+    
+}
+.watermark {
+    padding-top: 30px;
+}
